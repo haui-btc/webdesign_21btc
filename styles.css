@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
 } 
 
 .navbar {
@@ -209,7 +209,7 @@
         justify-content: center;
         margin: 0 auto;
         height: 90vh;
-        background-color: #141414;
+        background-color: rgb(21, 17, 10);
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -225,6 +225,22 @@
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
+    }
+    .main__content h2 {
+        font-size: 3rem;
+        background-color: #ff8177;
+        background-image: linear-gradient(to top, #ffbc21 0%, #ffb199 100%);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;        
+    }
+    .main__content p {
+        margin-top: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+        color: wheat;
     }
 }
 
